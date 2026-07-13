@@ -1,5 +1,5 @@
 import streamlit as st
-from ai_services import translate_text,summarize_text, translate_and_summarize
+from ai_service import translate_text,summarize_text, translate_and_summarize
 
 st.set_page_config(page_title="AI 智能翻译与摘要助手", page_icon="🤖", layout="wide")
 
